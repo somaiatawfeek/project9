@@ -1,0 +1,206 @@
+ * {
+        padding: 0;
+                                                        margin: 0;
+                                                    }
+                                                    
+                                                    body {
+                                                        height: 2000px;
+                                                    }
+                                                    
+                                                    ul {
+                                                        background-color: rgb(66, 62, 62);
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    ul li {
+                                                        display: inline-block;
+                                                        margin: 20px;
+                                                    }
+                                                    
+                                                    ul li:hover {
+                                                        box-shadow: 3px 3px 3px 3px cadetblue;
+                                                        color: black;
+                                                    }
+                                                    
+                                                    ul li a {
+                                                        color: white;
+                                                        text-decoration: none;
+                                                        font-size: 20px;
+                                                    }
+                                                    /* start hero section */
+                                                    
+                                                    .hero {
+                                                        height: 400px;
+                                                        background-position: center;
+                                                        background-image: url(../images/1.jpg);
+                                                    }
+.hero h1{
+                                                            color: white;
+                                                        text-align: center;
+   padding-top:350px ;
+
+    
+}
+                                                    
+                                                    .about_us {
+                                                        text-align: center;
+                                                        width: 80%;
+                                                        margin: auto;
+                                                        margin-top: 50px;
+                                                    }
+                                                    
+                                                    .about_us h1 {
+                                                        margin-bottom: 30px;
+                                                        color: steelblue;
+                                                        font-size: 35px;
+                                                    }
+                                                    
+                                                    .allbox {
+                                                        display: flex;
+                                                    }
+                                                    
+                                                    .box {
+                                                        width: 30%;
+                                                        background-color: rgb(175, 225, 248);
+                                                        margin: auto;
+                                                        height: 400px;
+                                                        padding: 10px;
+                                                        border-radius: 10px;
+                                                        cursor: pointer;
+                                                    }
+                                                    
+                                                    .box:hover {
+                                                        box-shadow: 3px 3px 3px cadetblue;
+                                                        background-color: white;
+                                                    }
+                                                    
+                                                    i {
+                                                        background-color: white;
+                                                        width: 60px;
+                                                        height: 60px;
+                                                        color: blue;
+                                                        font-size: 25px;
+                                                        border-radius: 50%;
+                                                    }
+.box i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+                                                    
+                                                    .bo .box h3 {
+                                                        font-size: 20px;
+                                                        color: blue;
+                                                        margin-top: 20px;
+                                                    }
+                                                    
+                                                    .box p {
+                                                        margin-top: 10px;
+                                                    }
+                                                    
+                                                    .content {
+                                                        text-align: center;
+                                                        width: 80%;
+                                                        margin: auto;
+                                                        margin-top: 50px;
+                                                    }
+                                                    
+                                                    .content h1 {
+                                                        margin-bottom: 30px;
+                                                        color: steelblue;
+                                                        font-size: 35px;
+                                                    }
+                                                    
+                                                    .content p {
+                                                        margin-bottom: 20px;
+                                                    }
+                                                    
+                                                    .content img {
+                                                        width: 200px;
+                                                        border-radius: 20%;
+                                                    }
+                                                    /* start  contact us */
+                                                    
+                                                    .contact-us {
+                                                        margin-top: 50px;
+                                                        margin-bottom: 50px;
+                                                        text-align: center;
+                                                    }
+                                                    
+                                                    .contact-us h1 {
+                                                        margin-bottom: 10px;
+                                                        color: steelblue;
+                                                        font-size: 35px;
+                                                    }
+                                                    
+                                                    .contact-us .contact-form {
+                                                        width: 70%;
+                                                        background-color: #eee;
+                                                        margin: auto;
+                                                        text-align: center;
+                                                        padding: 50px;
+                                                        border-radius: 5px;
+                                                    }
+                                                    
+                                                    .input-form input {
+                                                        width: 400px;
+                                                        height: 30px;
+                                                        border: 1px solid rgb(185, 179, 179);
+                                                        border-radius: 3px;
+                                                        margin-bottom: 20px;
+                                                    }
+                                                    
+                                                    .input-form input:focus {
+                                                        border: 1px solid rgb(185, 179, 179);
+                                                        outline: none;
+                                                    }
+                                                    
+                                                    textarea {
+                                                        width: 400px;
+                                                        height: 200px;
+                                                        border: 1px solid rgb(185, 179, 179);
+                                                        border-radius: 3px;
+                                                        outline: none;
+                                                    }
+                                                    /* start  button   */
+                                                    
+                                                    .btn-send {
+                                                        background-color: steelblue;
+                                                        color: white;
+                                                        width: 200px;
+                                                        height: 50px;
+                                                        border: 1px solid rgb(185, 179, 179);
+                                                        font: 20px;
+                                                        cursor: pointer;
+                                                        margin-top: 15px;
+                                                        border-radius: 3px;
+                                                    }
+                                                    
+                                                    .btn-send:hover {
+                                                        background-color: rgb(176, 202, 223);
+                                                    }
+                                                    /* start  footer   */
+                                                    
+                                                    .footer {
+                                                        height: 200px;
+                                                        color: white;
+                                                        text-align: center;
+                                                        background-color: rgb(74, 71, 71);
+                                                        line-height: 100px;
+                                                    }
+                                                   
+.footer i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a {
+                                                        color: white;
+                                                        text-decoration: none;
+                                                        font-size: 20px;
+                                                    }
+
+                                                    
+                                                    
